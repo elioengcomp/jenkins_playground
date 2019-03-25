@@ -1,6 +1,6 @@
 node {
     stage('Say hello') {
         sh "pwd"
-        sh "python -u ../script/hello.py $MYARG"
+        sh "python -u jenkins_files/script/hello.py $MYARG"
     }
 }
